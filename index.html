@@ -29,6 +29,8 @@
         <div id="email-container" class="js-continue-step-container signup-continue-step-container mt-4" data-step-state="active">
             <label for="email" class="text-mono signup-text-prompt">Enter your email
             </label>
+            <input id="email" class="js-continue-input js-continue-focus-target signup-input form-control input-block flex-1 border-0 rounded-0 p-0 box-shadow-none color-text-white f4 text-mono" required autofocus="autofocus" autocomplete="off" data-target="text-suggester.input" aria-describedby="email-err" type="email" name="user[email]" spellcheck="false">
+            <button type="button" class="js-continue-button signup-continue-button form-control px-3 width-full width-sm-auto mt-4 mt-sm-0" data-optimizely-event="click.signup_continue.email" data-continue-to="password-container" disabled>Continue</button>
     </div>
     <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden ></div>
     <div class="js-stale-session-flash flash flash-warn flash-banner" hidden></div>
