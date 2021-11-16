@@ -24,7 +24,12 @@
 
     <div id="start-of-content" class="show-on-focus"></div>
     <div data-pjax-replace id="js-flash-container"></div>
-    <div class="application-main d-flex flex-auto flex-column" data-commit-hovercards-enabled data-discussion-hovercards-enabled data-issue-andpr-hovercards-enabled></div>
+    <div class="application-main d-flex flex-auto flex-column" data-commit-hovercards-enabled data-discussion-hovercards-enabled data-issue-andpr-hovercards-enabled>
+        <h1 class="sr-only">Welcome to GitHub!, Let's begin the adventure</h1>
+        <typing-effect data-lines="[Welcome to Github!, Let's begin the adventure]" data-continue-to="email-container" class="js-signup-typed-welcome">
+
+        </typing-effect>
+    </div>
     <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden ></div>
     <div class="js-stale-session-flash flash flash-warn flash-banner" hidden></div>
     <template id="site-details-dialog"></template>
@@ -33,5 +38,6 @@
     <div aria-live="polite" class="sr-only"></div>
 
             </div>
+  <form></form>
     </body>
 </html>
