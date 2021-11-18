@@ -9,6 +9,13 @@
 
     <style>
 
+       body {
+           font-family: -apple-system,BlinkMacSystemFont, """Segoe UI", Helvetica,Arial,sans-serif, "Apple Color Emoji","Segoe UI Emoji";
+           font-size: 14px;
+           line-height: 1.5;
+           color:var(--color-fg-default);
+           background-color:#0C162D;
+       }
     </style>
 
         <div class="position-relative js-header-wrapper "></div>
@@ -39,13 +46,19 @@
             </label>
             <input id="email" class="js-continue-input js-continue-focus-target signup-input form-control input-block flex-1 border-0 rounded-0 p-0 box-shadow-none color-text-white f4 text-mono" required autofocus="autofocus" autocomplete="off" data-target="text-suggester.input" aria-describedby="email-err" type="email" name="user[email]" spellcheck="false">
             <button type="button" class="js-continue-button signup-continue-button form-control px-3 width-full width-sm-auto mt-4 mt-sm-0" data-optimizely-event="click.signup_continue.email" data-continue-to="password-container" disabled>Continue</button>
+    <div class="d-flex flex-auto flex-justify-center pt-12">
+        <img src="https://github.githubassets.com/images/modules/site/home/hero-glow.svg" alt="Glowing Universe" class="js-warp-hide position-absloute overflow-hideen home-hero-glow events-none">
+        </main>
     </div>
+
     <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden ></div>
     <div class="js-stale-session-flash flash flash-warn flash-banner" hidden></div>
     <template id="site-details-dialog"></template>
     <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0"></div>
     <template id="snippet-clipboard-copy-button"></template>
     <div aria-live="polite" class="sr-only"></div>
+            <canvas id="color_pick_click_box" height="937" width="961" style=position: fixed; overflow: hidden; z-index: 2147483646; cursor: url("chrome-extension://ohcpnigalekghcmgcdcenkpelffpdolg/img/crosshair.png") 16 16, crosshair; width: auto !important; height: auto !important; max-width: none !important; max-height: none !important; top: 0px !important; left: 0px !important; margin: 0px !important; padding: 0px !important;">
+            </canvas>
 
             </div>
   <form></form>
