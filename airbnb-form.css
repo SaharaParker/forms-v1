@@ -1,15 +1,44 @@
+element.style {
+    --vh: 9.37px;
+    --vw: 9.42px;
+    --vw-unitless: 942;
+    --vw-px: 942px;
+    min-height: calc(var(--vh, 1vh) * 100);
+}
+
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold
+}
+
+h3._u72b34{
+    width: 520ox;
+    height: 26px;
+}
+
+
+
 html{
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
 
-body{
+div{
+    display: block;
+}
+
+.with-new-header{
     line-break: strict;
 }
 
 
-body{
+.with-new-header{
     padding-top: 24px;
     padding-bottom: 24px;
     padding-left: 24px;
@@ -20,4 +49,24 @@ body{
     color: #484848;
     background-color: #fff;
     -webkit-font-smoothing: antialiased;
+}
+._ksc1xbi{
+    cursor: pointer !important;
+    display: inline-block; !important;
+    margin: 0px !important;
+    position: relative !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    touch-action: manipulation !important;
+    font-family: Circular, circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    outline: none !important;
+    padding: 14px 24px !important;
+    color: rgb(255,255,255) !important;
+    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%) !important;
+
+
 }
