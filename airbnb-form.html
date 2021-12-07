@@ -2,28 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="airbnb-form.css">
+    <link rel="stylesheet" href="tailwind.css">
     <title>Airbnb: Vacation Rentals, Cabins, Beach Houses, Unique Homes & Experiences</title>
 </head>
-<body class="with-new-header" style="position: fixed; overflow: hidden; inset: 0px;">
+    <body class="with-new-header" style="position: fixed; overflow: hidden; inset: 0px;">
+        <form>
+            <div id="site-skip-links" aria-hidden="true">
+                <a class="screen-reader-only screen-reader-only-focusable skip-to-content" data-hook="skip-to-content" href="#site-content">
+                    Skip to content
+                </a>
+                  <span id="popus-everywhere-skip-link"></span>
+            </div>
 
-    <div id="site-skip-links" aria-hidden="true">
-        <a class="screen-reader-only screen-reader-only-focusable skip-to-content" data-hook="skip-to-content" href="#site-content">
-        Skip to content
-        </a>
-        <span id="popus-everywhere-skip-link"></span>
-    </div>
-    <h1 tabindex="1" class="_14i3z6h">
-        <div class="_1q9sh65">Login or Sign up
-        </div>
-    </h1>
+           <h1 tabindex="1" class="_14i3z6h">
+             <div class="_1q9sh65">Login or Sign up
+            </div>
+           </h1>
 
     <h3 class="_u72b34">Welcome to Airbnb</h3>
 
     <label class="_13doyi5" for="country">
         <div class="_1ybgsf9g">
             <div class="_11hx67x">Country/Region</div>
-        <div class="_3hmsj">
+            <div class="_3hmsj">
             <select data-testid="login-signup-countrycode" class="_j0zjwn" id="country">
                 <option value="1US">United States (+1)</option>
             </select>
@@ -31,21 +32,21 @@
     </label>
 
 
-<label class="_d1user" for="phoneInputphoneNumber">
-    <div class="_11hx67x">Phone Number
-    <input name="phoneInputphoneNumber" placeholder="(XXX) XXX-XXXX" aria-required="true" data-testid="login-signup">
-</label><br>
-</div>
+    <label class="_d1user" for="phoneInputphoneNumber">
+        <div class="_11hx67x">Phone Number</div>
+            <input name="phoneInputphoneNumber" placeholder="(XXX) XXX-XXXX" aria-required="true" data-testid="login-signup">
+    </label>
 
-<button data-testid="signup-login-submit-btn" type="submit" class="_ksc1xbi" data-veloute="submit-btn-cypress">
-    <span class="_tcp689">Continue</span>
-</button><br><br>
 
-<div class="_1x0diny1"
-<span class="_1ishkhj">
-   or
-</span><br>
-</div>
+    <button data-testid="signup-login-submit-btn" type="submit" class="_ksc1xbi" data-veloute="submit-btn-cypress">
+        <span class="_tcp689">Continue</span>
+    </button><br><br>
+
+    <div class="_1x0diny1"
+        <span class="_1ishkhj">
+                or
+        </span><br>
+    </div>
 
 <button data-testid="social-auth-button-facebook" aria-label="Continue with Facebook" type="submit" class="_1xsd3q3e">
     <div class="_bc4egv">Continue with Facebook
@@ -70,7 +71,7 @@ fill: currentColor;">
     <div class="_bc4egv"> Continue with Email
     </div>
 </button>
-
+ </form>
 
 
 </body>
